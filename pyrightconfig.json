@@ -4,6 +4,11 @@
     "src",
     "tests"
   ],
+  "exclude": [
+    ".venv",
+    "venv",
+    "**/__pycache__"
+  ],
   "executionEnvironments": [
     {
       "root": ".",
@@ -11,5 +16,9 @@
         "."
       ]
     }
-  ]
+  ],
+  "typeCheckingMode": "basic",
+  "pythonVersion": "3.10",
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "none"
 }
